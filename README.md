@@ -17,7 +17,7 @@ Start the Docker container:
         -e "APP_ADDRESS=example.com" \
         -e "ADMIN_USERNAME=admin" \
         -e "ADMIN_PASSWORD=admin" \
-        ajanvier/polr
+        douglasabpa/docker-polr
 
 Or use the example docker-compose.yml.
 
