@@ -41,7 +41,7 @@ RUN curl -sS https://getcomposer.org/installer \
 
 # Pull application
 RUN mkdir -p /src && \
-    git clone https://github.com/cydrobolt/polr.git /src
+    git clone https://gitlab.com/douglasanpa/polr.git /src
 
 WORKDIR /src
 
