@@ -53,6 +53,8 @@ Environment variables
 | SETTING_ADV_ANALYTICS | Set to true to record advanced analytics *(default: false)* |
 | SETTING_RESTRICT_EMAIL_DOMAIN | Set to true to restrict registration to a specific email domain *(default: false)* |
 | SETTING_ALLOWED_EMAIL_DOMAINS | A comma-separated list of permitted email domains |
+| REDIRECT_WITH_PAGE | Redirects by displaying a page |
+
 |  |  |
 | POLR_ALLOW_ACCT_CREATION | Set to true to allow signups, false to disable *(default: false)* |
 | POLR_ACCT_ACTIVATION | Set to true to require activation by email *(default: false)* |
