@@ -1,11 +1,11 @@
 # Forked from TrafeX/docker-php-nginx (https://github.com/TrafeX/docker-php-nginx/)
 
 FROM alpine:latest
-LABEL Maintainer="Aurélien JANVIER <dev@ajanvier.fr>" \
+LABEL Maintainer="Douglas Andrade <douglasanpa@gmail.com>" \
       Description="Unofficial Docker image for Polr."
 
 # Environment variables
-ENV APP_NAME My Polr
+ENV APP_NAME Polr
 ENV APP_PROTOCOL https://
 ENV DB_PORT 3306
 ENV DB_DATABASE polr
