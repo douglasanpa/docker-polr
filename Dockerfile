@@ -11,6 +11,10 @@ ENV DB_PORT 3306
 ENV DB_DATABASE polr
 ENV DB_USERNAME polr
 ENV POLR_BASE 62
+ENV GOROOT /usr/lib/go
+ENV GOPATH /go
+ENV PATH /go/bin:$PATH
+
 
 # Install packages
 RUN apk --no-cache add gettext git php7 php7-fpm php7-pdo php7-mysqli php7-json php7-openssl php7-curl \
