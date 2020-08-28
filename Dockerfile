@@ -69,4 +69,4 @@ COPY seeders/AdminSeeder.php AdminSeeder_withoutEnv.php
 RUN apk del git
 
 EXPOSE 80
-ENTRYPOINT fileenv /wait-for-it.sh $DB_HOST:$DB_PORT --strict --timeout=120 -- /start.sh
+ENTRYPOINT /wait-for-it.sh $DB_HOST:$DB_PORT --strict --timeout=120 -- /start.sh
